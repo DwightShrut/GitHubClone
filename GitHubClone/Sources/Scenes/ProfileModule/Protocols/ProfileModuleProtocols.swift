@@ -48,3 +48,7 @@ protocol ProfileModuleRouterProtocol: AnyObject {
     static func createProfileModule(for view: ProfileModuleViewProtocol)
     func pushToChapter(with type: ChapterType, from view: UIViewController)
 }
+
+func someChanges() {
+
+}
